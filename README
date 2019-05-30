@@ -1,0 +1,5 @@
+This is a simple project used to detect malicous and benign URL based on Machine Learning where we used logistic regression. We are providing you data set in urldata.csv file.
+We have used Logistic Regression since it is fast. The first part was tokenizing the URLs. We wrote tokenizer function for this since URLs are not like some other document text.
+Then we load the data and store it into a list.
+Now that we have the data in our list, we have to vectorize our URLs. We have used tf-idf scores instead of using bag of words classification since there are words in urls that are more important than other words e.g ‘virus’, ‘.exe’ ,’.dat’ etc.Then we converted the urls into vectors.
+We have the vectors. Then we converted it into test and training data and go right about performing logistic regression on it.We get an accuracy of 96%. That’s a very high value for a machine to be able to detect a malicious URL with.
