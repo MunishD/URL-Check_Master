@@ -1,3 +1,6 @@
+CONTRIBUTION BY:
+MUNISH DAROCH
+ANISH KAUSHAL(https://github.com/4NI5H)
 This is a simple project used to detect malicous and benign URL based on Machine Learning where we used logistic regression. We are providing you data set in urldata.csv file.
 We have used Logistic Regression since it is fast. The first part was tokenizing the URLs. We wrote tokenizer function for this since URLs are not like some other document text.
 Then we load the data and store it into a list.
